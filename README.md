@@ -112,7 +112,20 @@ These results are specific to the synthetic dataset and evaluation setup.
 
 ## Power BI Dashboard
 
-The Power BI report contains four analytical pages.
+### 1. Fraud Overview
+![Fraud Overview](reports/fraud_overview.png)
+
+### 2. Transaction Analysis
+![Transaction Analysis](reports/transaction_analysis.png)
+
+### 3. Fraud Investigation
+![Fraud Investigation](reports/fraud_investigation.png)
+
+### 4. Model Performance
+![Model Performance](reports/model_investigation.png)
+
+### Feature Importance
+![Feature Importance](reports/feature_importance.png)
 
 ### 1. Fraud Overview
 Summarizes transaction volume, fraud counts, fraud rates, transaction amounts, and fraud distribution by transaction type.
@@ -184,7 +197,7 @@ The structure above illustrates the main project components. Keep the paths cons
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/kristyrajput/finguard
 cd FinGuard
 ```
 
