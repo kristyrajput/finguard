@@ -6,6 +6,7 @@
 - Developed a Random Forest fraud detection model achieving **99.62% ROC-AUC, 77.54% recall, and 47.66% precision** at a 0.95 classification threshold.
 - Built a four-page Power BI dashboard to visualize fraud trends, transaction behavior, investigation details, and model performance.
 - Developed a Streamlit application that scores uploaded transactions, categorizes fraud risk, and exports prediction results to CSV.
+- **Live Demo:** https://finguard-e6chdalurv6ykqunbsdftt.streamlit.app/
 - GitHub: https://github.com/kristyrajput/finguard
 
 ## Project Overview
