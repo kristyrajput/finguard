@@ -1,6 +1,12 @@
-# FinGuard Pro — Financial Transaction & Fraud Intelligence
+**FinGuard Pro | Financial Transaction & Fraud Intelligence Platform**
 
-An end-to-end data analytics and machine learning project for analyzing financial transactions, identifying suspicious activity, and communicating insights through SQL, Python, Power BI, and Streamlit.
+*Python, Pandas, Scikit-learn, MySQL, Power BI, Streamlit*
+
+- Analyzed **6.36 million financial transactions** using Python and MySQL to identify fraud patterns, transaction anomalies, and balance inconsistencies.
+- Developed a Random Forest fraud detection model achieving **99.62% ROC-AUC, 77.54% recall, and 47.66% precision** at a 0.95 classification threshold.
+- Built a four-page Power BI dashboard to visualize fraud trends, transaction behavior, investigation details, and model performance.
+- Developed a Streamlit application that scores uploaded transactions, categorizes fraud risk, and exports prediction results to CSV.
+- GitHub: https://github.com/kristyrajput/finguard
 
 ## Project Overview
 
@@ -127,19 +133,6 @@ These results are specific to the synthetic dataset and evaluation setup.
 ### Feature Importance
 ![Feature Importance](reports/feature_importance.png)
 
-### 1. Fraud Overview
-Summarizes transaction volume, fraud counts, fraud rates, transaction amounts, and fraud distribution by transaction type.
-
-### 2. Transaction Analysis
-Explores transaction patterns across simulation steps, average transaction amounts, fraud versus non-fraud amounts, and transaction amount ranges.
-
-### 3. Fraud Investigation
-Provides a fraud-focused transaction table, high-value fraud summaries, flagged versus unflagged cases, and sender/receiver balance-change comparisons.
-
-### 4. Model Performance
-Presents classification metrics, a confusion matrix, and key model evaluation findings.
-
-The dataset's `step` column represents a simulation step, not a calendar date or actual transaction timestamp.
 
 ## Streamlit Fraud-Risk Application
 
@@ -201,8 +194,6 @@ git clone https://github.com/kristyrajput/finguard
 cd FinGuard
 ```
 
-Replace the placeholder with your actual repository URL.
-
 ### 2. Create a virtual environment
 
 ```bash
@@ -247,9 +238,10 @@ Upload a CSV containing the required original transaction columns:
 
 The application uses the saved model at `models/random_forest_final.joblib`.
 
-### 6. Explore the Power BI report
 
-Open the Power BI `.pbix` report in Power BI Desktop. If the report is not included in the repository, add its actual location and access instructions here.
+### 6. Explore the Power BI Report
+
+The report screenshots are available above. The `.pbix` file is not included in this repository because of its large file size.
 
 ## Limitations
 
